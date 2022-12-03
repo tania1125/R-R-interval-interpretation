@@ -33,7 +33,7 @@ M = sta.mean(I)  #finding using in-build function
 N = len(I)
 su = sum(I)
 mean = su / N  #finding using logic
-print("\nThe mean of interval:",M)
+print("\nThe mean of interval:", M)
 #finding standard deviation
 d = np.zeros(N)
 for l in range(N):
@@ -42,4 +42,4 @@ for l in range(N):
 de = s / N
 sd = np.sqrt(de)  #finding using logic
 sdn = sta.stdev(I)  #finding using in-build function
-print("\nThe standard deviation of interval:",sdn)
+print("\nThe standard deviation of interval:", sdn)
